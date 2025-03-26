@@ -12,8 +12,8 @@ def filter_nondigits(data: list) -> list:
     filtered_data = []
 
     for item in data:
-        item = item.strip()
-        if item.isdigit():
-            filtered_data.append(float(item))
+        cleaned_item = item.strip()
+        if cleaned_item.isdigit():
+            filtered_data.append(int(cleaned_item))
         
     return filtered_data
