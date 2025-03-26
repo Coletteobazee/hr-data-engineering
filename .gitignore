@@ -1,1 +1,2 @@
-tempcoderunnerfile.*
+# Ignore temporary runner files
+tempCodeRunnerFile.*
